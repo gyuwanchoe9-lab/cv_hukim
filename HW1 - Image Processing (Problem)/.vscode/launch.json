@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "python": "C:/Users/USER/anaconda3/envs/CV/python.exe",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Self-check (check.py)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/check.py",
+            "args": ["--data", "data"],
+            "cwd": "${workspaceFolder}",
+            "python": "C:/Users/USER/anaconda3/envs/CV/python.exe",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
